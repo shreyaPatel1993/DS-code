@@ -11,7 +11,7 @@ note: Graphs and other DS will be added in future as I work on.
 
 # About Project:
 1. It has all the DS to be use in Modular form.
-2. All DS are in seprate Components/files (you can find it in its repective js file/components).
+2. All DS are in seprate Components/files (you can find it in its respective js file/components).
 3. All the module files are integrated and exported from Package.js file.
 4. main.js is using all imports/ DS files from Package.js which is used to bundle up this Project and main.js is integrated in index.html as start/script js file.
 5. This project must run on a server (to view or start the project because files are imported and exported as module): 
