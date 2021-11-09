@@ -1,5 +1,5 @@
 # DS-code in JS
-This Project has all Data Structures I worked on from Stratch to build it in JavaScript.
+This Project has all Data Structures I worked on from Scratch to build it in JavaScript.
 
 1. Binary Tree
 2. Binary Search Tree
