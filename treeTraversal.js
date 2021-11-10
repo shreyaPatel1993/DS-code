@@ -1,4 +1,6 @@
-import { BST, BT, SLL, DLL, BinarySearchTree, BinaryTree, SinglyLinkedList, Queue, DoublyLinkedList } from "./Package.js";
+import { BinarySearchTree, BinaryTree, SinglyLinkedList, Queue, DoublyLinkedList } from './Package'; // Classes of DS
+import { BST, BT, SLL, DLL } from "./Package.js"; // Objects alredy created in their files.
+import { BTroot, BSTroot, sllHead, dllHead } from './Package'; // roots & heads to be used for DS & Algo problem Solving.
 
 // Binary Tree level order traversal: left to right Traversal (BFS) - (LeetCode: #102)
 // Adding nodes values to an 2D Array
@@ -24,7 +26,7 @@ function levelOrder(root) {
   return res;
 }
 
-console.log(levelOrder(BT));
+console.log(levelOrder(BTroot));
 // output: [[30], [50, 10], [60,20]]
 
  /*  The above BT passed as arguments is this tree below:

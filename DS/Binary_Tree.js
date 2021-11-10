@@ -54,7 +54,7 @@ export class BinaryTree {
 
 // Driver code
 // this is a Binary Tree which will be initially null;
-let tree = new BinaryTree();
+export let tree = new BinaryTree();
 
 // then add the values to the Tree :
 tree.insert(30);

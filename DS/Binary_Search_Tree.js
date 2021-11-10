@@ -47,7 +47,7 @@ export class BinarySearchTree {
 // Driver code
 // this is a Binary Search Tree, where left nodes are less/smaller than the right nodes/sub tree;
 
-let tree = new BinarySearchTree();
+export let tree = new BinarySearchTree();
 tree.insert(30);
 tree.insert(50); // this go to root's (30)'s right as its greater than the root
 tree.insert(10); // this go to root's (30)'s left as its less than the root
