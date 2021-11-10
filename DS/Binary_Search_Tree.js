@@ -45,18 +45,20 @@ export class BinarySearchTree {
 }
 
 // Driver code
-// this is a root node of a Binary Search Tree, where left nodes are less/smaller than the right nodes/sub tree;
-export let root = new BinarySearchTree();
-root.insert(30);
-root.insert(50); // this go to root's (30)'s right as its greater than the root
-root.insert(10); // this go to root's (30)'s left as its less than the root
-root.insert(60);
-root.insert(20);
-console.log(root, 'from Binary_Search_Tree.js');
+// this is a Binary Search Tree, where left nodes are less/smaller than the right nodes/sub tree;
 
+let tree = new BinarySearchTree();
+tree.insert(30);
+tree.insert(50); // this go to root's (30)'s right as its greater than the root
+tree.insert(10); // this go to root's (30)'s left as its less than the root
+tree.insert(60);
+tree.insert(20);
+
+export let root = tree.root; // exporting the main root of the careted tree Object;
+
+// console.log(root, 'from Binary_Search_Tree.js');
 
  /*  The above code constructs this tree
-	 
 //                    30
 //                  /      \
 //                10        50

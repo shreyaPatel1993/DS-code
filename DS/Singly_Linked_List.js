@@ -122,9 +122,11 @@ export class SinglyLinkedList {
 }
 
 // Driver code:
-export var list = new SinglyLinkedList(); // creating new object of SinglyLinkedList class
-list.push("HELLO"); // adding value to the object
-list.push("GOODBYE");
-list.push("!!!");
+export var sll = new SinglyLinkedList(); // creating new object of SinglyLinkedList class
+sll.push("HELLO"); // adding value to the object
+sll.push("GOODBYE");
+sll.push("!!!");
 // list : {"HELLO"(head) -> "GOODBYE" -> "!!!"(tail)}
-console.log(list, 'from Singly_Linked_List.js'); 
+
+export let list = sll.head; // exporting head of created SLL Object.
+// console.log(list, 'from Singly_Linked_List.js'); 

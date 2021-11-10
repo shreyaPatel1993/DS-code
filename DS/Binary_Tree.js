@@ -48,19 +48,25 @@ export class BinaryTree {
     }
     return false;
   }
+  
 }
 
 
 // Driver code
-// this is a root node of a Binary Tree which will be initially null;
-export let root = new BinaryTree();
+// this is a Binary Tree which will be initially null;
+let tree = new BinaryTree();
+
 // then add the values to the Tree :
-root.insert(30);
-root.insert(50); 
-root.insert(10); 
-root.insert(60); 
-root.insert(20);
-console.log(root, 'from Binary_Tree.js');
+tree.insert(30);
+tree.insert(50); 
+tree.insert(10); 
+tree.insert(60); 
+tree.insert(20);
+// tree.find(60)
+
+export let root = tree.root; // exporting the main root of the careted tree Object;
+
+console.log(root, "from Binary_Tree.js");
 
  /*  The above code constructs this tree
 	 

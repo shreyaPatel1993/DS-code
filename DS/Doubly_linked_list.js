@@ -143,10 +143,11 @@ export class DoublyLinkedList {
 } // end of doubly class
 
 // Driver Code:
-export var list = new DoublyLinkedList(); // creating new object of DoublyLinkedList class
-list.push("A"); list.push("B"); list.push("C"); // adding values to it
-list.push("D"); list.push("E"); list.push("F");
+var dll = new DoublyLinkedList(); // creating new object of DoublyLinkedList class
+dll.push("A"); dll.push("B"); dll.push("C"); // adding values to it
+dll.push("D"); dll.push("E"); dll.push("F");
 // list: {A(head) <=> B <=> C -> D <=> E <=> F (tail)}
 
-console.log(list.reverse(), " reversed list from Doubly_linked_list.js");
-console.log(list, "list from Doubly_linked_list.js");
+export let list = dll.head; // exporting head of DLL object created.
+// console.log(list.reverse(), " reversed list from Doubly_linked_list.js");
+// console.log(list, "list from Doubly_linked_list.js");
