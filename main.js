@@ -1,4 +1,4 @@
-import {BST, BT, SLL, QUE, DLL, BinarySearchTree, BinaryTree, SinglyLinkedList, Queue, DoublyLinkedList} from './Package.js';
+import {BST, BT, SLL, DLL, BinarySearchTree, BinaryTree, SinglyLinkedList, Queue_SLL, Queue_Array, DoublyLinkedList} from './Package.js';
 
 /* Examples of how above imports will work:
 first 5 (BST, BT, SLL, QUE, DLL) are ready made objects to be used which has values added in from the respective files.
