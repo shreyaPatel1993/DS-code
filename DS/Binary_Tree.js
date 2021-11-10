@@ -66,7 +66,7 @@ tree.insert(20);
 
 export let root = tree.root; // exporting the main root of the careted tree Object;
 
-console.log(root, "from Binary_Tree.js");
+// console.log(root, "from Binary_Tree.js");
 
  /*  The above code constructs this tree
 	 
