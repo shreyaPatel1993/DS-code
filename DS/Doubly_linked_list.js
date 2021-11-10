@@ -148,5 +148,7 @@ list.push("A"); list.push("B"); list.push("C"); // adding values to it
 list.push("D"); list.push("E"); list.push("F");
 // list: {A(head) <=> B <=> C -> D <=> E <=> F (tail)}
 
-console.log(list.reverse(), " reversed list from Doubly_linked_list.js");
-console.log(list, "list from Doubly_linked_list.js");
+export let dllHead = list.head; // exporting head of DLL object created.
+
+// console.log(list.reverse(), " reversed list from Doubly_linked_list.js");
+// console.log(list, "list from Doubly_linked_list.js");

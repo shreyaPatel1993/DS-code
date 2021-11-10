@@ -40,7 +40,7 @@ que.add(10); // adding values to the created object
 que.add(25);
 que.add(11);
 que.add(30);
-que.remove() // will return value 10
 que.add(50);
-console.log(que, 'from Queue.js') //?
+que.remove() // will return value 10 
+// console.log(que, 'from Queue.js') //?
 
