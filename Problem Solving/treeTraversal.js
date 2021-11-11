@@ -1,6 +1,6 @@
-import { BinarySearchTree, BinaryTree, SinglyLinkedList, Queue, DoublyLinkedList } from './Package.js'; // Classes of DS
-import { BST, BT, SLL, DLL } from "./Package.js"; // Objects alredy created in their files.
-import { BTroot, BSTroot, sllHead, dllHead } from './Package.js'; // roots & heads to be used for DS & Algo problem Solving.
+import { BinarySearchTree, BinaryTree, SinglyLinkedList, Queue, DoublyLinkedList } from '../Package.js'; // Classes of DS
+import { BST, BT, SLL, DLL } from "../Package.js"; // Objects alredy created in their files.
+import { BTroot, BSTroot, sllHead, dllHead } from '../Package.js'; // roots & heads to be used for DS & Algo problem Solving.
 
 // Binary Tree level order traversal: left to right Traversal (BFS) - (LeetCode: #102)
 // Adding nodes values to an 2D Array
