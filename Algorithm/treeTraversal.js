@@ -1,4 +1,4 @@
-import { BinarySearchTree, BinaryTree, SinglyLinkedList, Queue, DoublyLinkedList } from '../Package.js'; // Classes of DS
+import { BinarySearchTree, BinaryTree, SinglyLinkedList, Queue_SLL , DoublyLinkedList } from '../Package.js'; // Classes of DS
 import { BST, BT, SLL, DLL } from "../Package.js"; // Objects alredy created in their files.
 import { BTroot, BSTroot, sllHead, dllHead } from '../Package.js'; // roots & heads to be used for DS & Algo problem Solving.
 
@@ -8,7 +8,7 @@ import { BTroot, BSTroot, sllHead, dllHead } from '../Package.js'; // roots & he
 function levelOrder(root) {
     
   if (!root) return;
-  let q = new Queue();
+  let q = new Queue_SLL();
   let res = [];
   q.add(root);
 
@@ -26,7 +26,7 @@ function levelOrder(root) {
   return res;
 }
 
-console.log(levelOrder(BTroot));
+console.log(levelOrder(BTroot)); //?
 // output: [[30], [50, 10], [60,20]]
 
  /*  The above BT passed as arguments is this tree below:

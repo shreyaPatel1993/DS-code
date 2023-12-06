@@ -18,8 +18,8 @@ export class Queue_Array{
     remove(){
         if(!this.length) return undefined;
         let item = this.array[this.startI];
-        this.startI++;
-        this.length--;
+        this.startI++; //just point startIndex to next one
+        this.length--; //and reduce the length by 1.
         return item;
     }
 }

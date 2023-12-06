@@ -1,7 +1,7 @@
 import { SinglyLinkedList as LinkedList} from "./Singly_Linked_List.js";
 import { ListNode } from "./Nodes.js";
 
-// This isue DS implementation using Singly Linked List.
+// This is Queue DS implementation using Singly Linked List.
 // Remember this won't return an array so you cannot find val by index, it will just give you the first val in Queue and able to add val at end via SLL;
 
 export class Queue_SLL extends LinkedList {
@@ -57,4 +57,4 @@ Que.remove(); // will return value 10
 Que.removing(); // will return value 25
 
 
-// console.log(Que, 'from Queue_usingSLL.js') //Que Object
+console.log(Que, 'from Queue_usingSLL.js') //Que Object
