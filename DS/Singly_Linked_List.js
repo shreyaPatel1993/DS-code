@@ -130,3 +130,5 @@ list.push("!!!");
 
 export let sllHead = list.head; // exporting head of created SLL Object
 // console.log(list, 'from Singly_Linked_List.js'); 
+list.shift()
+console.log(list)
